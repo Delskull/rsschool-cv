@@ -43,3 +43,75 @@ body{
 .cv .cv_left .cv_content{
   padding: 0 25px;
 }
+.cv .title{
+  margin-bottom: 20px;
+}
+.cv .cv_left .bold{
+  color: #fff;
+}
+.cv .cv_left .regular{
+  color: #b1eaff;
+}
+.cv .cv_item{
+  padding: 7px;
+  border-bottom: 3px solid #b1eaff;
+}
+.cv .cv_left .cv_item:last-child{
+  border-bottom: none;
+}
+.cv .cv_left ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cv .cv_left ul li:last-child{
+  margin-bottom: 0px;
+}
+.cv .cv_left ul li .icon{
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #0bb5f4;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+.cv .icon i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.cv .cv_left .cv_skills ul li{
+ display: flex;
+ margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
+}
+.cv .cv_left .cv_skills ul li .skill_name{
+  width: 25%;
+}
+.cv .cv_left .cv_skills ul li .skill_progress{
+  width: 70%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+.cv .cv_left .cv_skills ul li .skill_per{
+  width: 15%;
+}
+.cv .cv_left .cv_skills ul li .skill_progress span{
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+background: #fff;
+}
+.cv .cv_right{
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
