@@ -1,1 +1,34 @@
 @import "nullstyle.css";
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container{
+    min-height: 50px;
+    max-width: 1440px;
+    margin-left: 13%;
+
+
+}
+
+header{
+    background-color: rgb(154, 170, 223);
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+ li{
+    margin: 1%;
+    color: rgb(13, 1, 27);
+ }
+
+}
+.navigation{
+    margin: 1%;
+
+}
