@@ -19,6 +19,7 @@ body{
     margin: 0 auto;
     min-height: 50px;
     background-color: #c4c3c9;
+    flex-direction: column;
 }
 
 
@@ -39,6 +40,7 @@ h2{
     font-weight: 300;
     letter-spacing: 2px ;
     align-self: center;
+    text-align: center;
 }
 
 
@@ -87,7 +89,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     flex: 1 0 auto;
-    height: 50%;
+    max-height: 50%;
     border-bottom: 15px solid #83a3b6;
     padding: 50px 30px 35px;
 
@@ -102,9 +104,7 @@ ul{
 
 
 }
-.preview_photo{
 
-}
 img{
     width: 250px;
     height: 200px;
@@ -116,3 +116,57 @@ img{
 }
 
 /* -------------------------------- A V A T A R ------------------------------- */
+
+/* -------------------------------- C O N T A C T S ------------------------------- */
+
+.info{
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 10px;
+    border-bottom: 15px solid #83a3b6;
+}
+.info_contact{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+
+}
+.info_about{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------- C O N T A C T S ------------------------------- */
