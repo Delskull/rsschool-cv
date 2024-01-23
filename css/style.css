@@ -1,5 +1,6 @@
 @import "nullstyle.css";
 body{
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -11,16 +12,17 @@ body{
 }
 /* -------------------------------- A L L ------------------------------- */
 .main{
-    height: 100vh;
+    height: 100%;
 }
 .main_conteiner{
 
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
-    min-height: 50px;
+    min-height: 100%;
     background-color: #c4c3c9;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 
 
@@ -107,7 +109,7 @@ ul{
 
 }
 
-img{
+.myPhoto{
     width: 250px;
     height: 200px;
     border-radius: 50%;
@@ -153,6 +155,31 @@ img{
 
 }
 
+/* -------------------------------- C O N T A C T S ------------------------------- */
+
+
+/* -------------------------------- F O O T E R ------------------------------- */
+
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------- F O O T E R ------------------------------- */
 
 
 
