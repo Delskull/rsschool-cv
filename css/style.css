@@ -1,5 +1,6 @@
 @import "nullstyle.css";
 body{
+    text-align: center;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +14,7 @@ body{
     height: 100vh;
 }
 .main_conteiner{
-    height: 100vh;
+
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
@@ -70,6 +71,7 @@ ul{
     display: flex;
     justify-content: flex-end;
  li{
+    white-space: nowrap;
     margin: 1%;
     color: rgb(13, 1, 27);
  }
@@ -121,8 +123,7 @@ img{
 
 .info{
     display: flex;
-    flex: 1 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     line-height: 30px;
     padding: 10px;
     border-bottom: 15px solid #83a3b6;
@@ -147,6 +148,7 @@ img{
     display: flex;
     flex-direction: column;
     width: 40%;
+    padding-bottom: 40px;
 
 
 }
